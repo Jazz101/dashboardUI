@@ -233,6 +233,11 @@ textarea {
 
   .tag {
     border: 1px solid #000; }
+  
+  .table-shadow
+  {
+     box-shadow: 0 0 20px 8px rgb(212 181 181 / 60%) !important;
+  }
 
   .table {
     border-collapse: collapse !important; }
@@ -371,8 +376,7 @@ label {
   margin-bottom: .5rem; }
 
 button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color; }
+  outline: 0px auto -webkit-focus-ring-color !important; }
 
 input,
 button,

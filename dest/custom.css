@@ -1,11 +1,38 @@
 .todoul{
     list-style-type: none;
+    padding-right: 0px;
+    height: 110px;
+    max-height: 250px;
+    overflow: auto;
+    scrollbar-face-color: #EEEEEE;
+  /* Firefox 63 compatibility */
+  scrollbar-track-color: #2e3645;
+  /* Firefox 63 compatibility */
+  scrollbar-color: #114734 #EEEEEE;
+  scrollbar-width: 1em;
+  -ms-scrollbar-highlight-color: aqua;
+  -ms-scrollbar-face-color: #114734; 
 }
+
+  .todoul::-webkit-scrollbar {
+    width: 8px; }
+  .todoul::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 0px; }
+  .todoul::-webkit-scrollbar-thumb {
+    background-color: #114734;
+    border-radius: 0px;
+    outline: 1px solid slategrey; }
+  .todoul .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0) !important; }
+
 .todoul li{
-    text-align: left;padding: 6px;    border: 1px solid black;
+    text-align: left;padding: 6px;    
+    border: 1px solid black;
 }
 .toh3{
     text-align: left;
+    padding-left: 20px;
 }
 .main .container-fluid {
     background: white;

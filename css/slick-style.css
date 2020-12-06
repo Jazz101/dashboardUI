@@ -1,0 +1,117 @@
+#slideshow { 
+    margin: 0 auto; 
+    position: relative; 
+    width: 100%;
+    padding: 1% 1% 56.25% 1%; /*56.25 is for 16x9 resolution*/
+    /* border-radius:20px; */
+    background: rgb(255 255 255 / 20%);
+    box-shadow: 0 0 20px 8px rgb(212 181 181 / 60%);
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+    text-align: center;
+}
+
+.slider-rtl-title
+{
+   margin-top: 30px;
+}
+
+.slider-rtl-title2
+{
+   left: 0px;
+}
+
+#slideshow > div > img {
+  width:100%;
+  height:100%;
+  /* border-radius:20px; */
+}
+
+#slideshow:hover i, #slideshow:hover .slider-dots{
+  opacity: 1;
+  }
+
+.slidebtn {
+  z-index:99;
+  background:transparent;
+  outline:none;
+  border:none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  padding:0 10px 0 10px;
+  }
+
+.slidebtn:active,
+.slidedtn:focus {
+  outline:none !important; }
+  
+.slidebtn i {
+  color:#FFF;
+  font-size:40px;
+  opacity: 0.2;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+
+  }
+
+.prev {
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    bottom: 10px;
+}
+
+.next {
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    bottom: 10px;
+}
+
+
+.slider-dots {
+  opacity: 0.2;
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+  position:absolute;
+  left:50%;
+  bottom:3%;
+  transform: translate(-30%, 0);
+  z-index:99;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+
+}
+
+.slider-dots li {
+  color: #000;
+  display: inline;
+  font-size: 48px;
+  margin-right: 5px;
+  cursor:pointer;
+}
+
+.slider-dots li.active-dot {
+  color: #fff;
+}
+
+/*
+JQUERY SLIDER BY JohnRostislavovich - https://codepen.io/JohnRostislavovich
+ALL YOU HAVE TO DO:
+-copy the whole code html, css & js
+-include jquery lib
+-change the images
+*/

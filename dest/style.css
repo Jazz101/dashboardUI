@@ -384,8 +384,8 @@ label {
   margin-bottom: .5rem; }
 
 button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color; }
+  outline: 0px dotted !important;
+  outline: 0px auto -webkit-focus-ring-color; }
 
 input,
 button,
@@ -498,6 +498,81 @@ hr {
   margin-bottom: 1rem;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1); }
+
+  /* ------------------------ graphs page ------------------------- */
+  
+  .analytic-box
+  {
+     box-shadow: 0 0 20px 8px rgb(212 181 181 / 60%) !important;
+     padding: 10px;
+  }
+
+  .analytic-box h3
+  {
+     text-align: left; 
+  }
+
+  .pi-chart-graph
+  {
+     box-shadow: 0 0 20px 8px rgb(212 181 181 / 60%) !important;
+     padding: 23px;
+  }
+
+  .pi-chart-graph h3
+  {
+     text-align: center;
+  }
+
+  .line-chart-graph
+  {
+     box-shadow: 0 0 20px 8px rgb(212 181 181 / 60%) !important;
+     padding: 23px;
+  }
+
+  .line-chart-graph h3
+  {
+     text-align: center;
+  }
+
+  .smily-faces-content
+  {
+     box-shadow: 0 0 20px 8px rgb(212 181 181 / 60%) !important;
+     padding-top: 10px;
+     padding-bottom: 10px;
+  }
+
+  .smily-faces-content h2
+  {
+     text-align: center;
+  }
+
+  .smily-faces-content h3
+  {
+     text-align: center;
+     margin-top: -20px;
+  }
+  
+  .sad-icon 
+  {
+     float: left;
+     font-size: 100px;
+     text-align: left;
+     color: #114734;
+  }
+
+  .vertical-bar-chart
+  {
+     box-shadow: 0 0 20px 8px rgb(212 181 181 / 60%) !important;
+     margin-top: 20px;
+  }
+
+  .vertical-bar-chart h3
+  {
+     text-align: center;
+     padding: 20px;
+  }
+
+  /* ---------------------- end graphs page ------------------------ */
 
 small,
 .small {
@@ -644,7 +719,8 @@ pre {
     clear: both; }
   @media (min-width: 544px) {
     .container {
-      max-width: 576px; } }
+      max-width: 576px; } 
+    }
   @media (min-width: 768px) {
     .container {
       max-width: 720px; } }
@@ -4586,7 +4662,25 @@ a.text-danger:focus, a.text-danger:hover {
 
 @media (max-width: 543px) {
   .hidden-xs-down {
-    display: none !important; } }
+    display: none !important; } 
+  .analytic-box {
+    margin-top: 20px !important; 
+    }  
+
+    .graph-shadow {
+    margin-top: 20px;
+    }
+
+    .line-chart-graph {
+    margin-top: 20px;
+   }
+
+    .sad-icon 
+   {
+    float: left;
+    margin-left: 50px !important;
+   }
+  }
 
 @media (min-width: 544px) {
   .hidden-sm-up {
@@ -4594,7 +4688,27 @@ a.text-danger:focus, a.text-danger:hover {
 
 @media (max-width: 767px) {
   .hidden-sm-down {
-    display: none !important; } }
+    display: none !important; } 
+    
+    .analytic-box
+    {
+       margin-top: 20px;
+    }
+
+    .graph-shadow 
+    {
+     margin-top: 20px;
+    }
+
+    .sad-icon {
+     margin-left: 200px; 
+    }
+
+    .line-chart-graph 
+    {
+      margin-top: 20px;
+    }
+  }
 
 @media (min-width: 768px) {
   .hidden-md-up {
@@ -4615,6 +4729,16 @@ a.text-danger:focus, a.text-danger:hover {
 @media (min-width: 1200px) {
   .hidden-xl-up {
     display: none !important; } }
+
+@media (max-width: 1300px) {
+    
+    .sad-icon {
+    
+    font-size: 75px;
+    margin-top: 13px;
+   }
+
+  }
 
 .hidden-xl-down {
   display: none !important; }
