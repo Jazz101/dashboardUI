@@ -17,6 +17,7 @@
 
 .glider h3
 {
+  margin-left: 80px;
    text-align: center; 
    margin-top: 10px;
    font-size: 20px;
@@ -25,6 +26,7 @@
 
 .glider h4
 {
+  margin-left: 83px;
    text-align: center;
    font-size: 20px;  
 }
