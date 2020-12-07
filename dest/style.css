@@ -503,7 +503,7 @@ hr {
   
   .analytic-box
   {
-     box-shadow: 0 0 20px 8px rgb(212 181 181 / 60%) !important;
+     box-shadow: 0 0 20px 8px #263238 !important;
      padding: 10px;
   }
 
@@ -514,7 +514,7 @@ hr {
 
   .pi-chart-graph
   {
-     box-shadow: 0 0 20px 8px rgb(212 181 181 / 60%) !important;
+     box-shadow: 0 0 20px 8px #263238 !important;
      padding: 23px;
   }
 
@@ -525,7 +525,7 @@ hr {
 
   .line-chart-graph
   {
-     box-shadow: 0 0 20px 8px rgb(212 181 181 / 60%) !important;
+     box-shadow: 0 0 20px 8px #263238!important;
      padding: 23px;
   }
 
@@ -536,7 +536,7 @@ hr {
 
   .smily-faces-content
   {
-     box-shadow: 0 0 20px 8px rgb(212 181 181 / 60%) !important;
+     box-shadow: 0 0 20px 8px #263238!important;
      padding-top: 10px;
      padding-bottom: 10px;
   }
@@ -562,7 +562,7 @@ hr {
 
   .vertical-bar-chart
   {
-     box-shadow: 0 0 20px 8px rgb(212 181 181 / 60%) !important;
+     box-shadow: 0 0 20px 8px #263238 !important;
      margin-top: 20px;
   }
 
@@ -572,7 +572,7 @@ hr {
      padding: 20px;
   }
 
-  /* ---------------------- end graphs page ------------------------ */
+  /* ---------------------- end graphs page   rgb(251,119,13)  organge ------------------------ */
 
 small,
 .small {
