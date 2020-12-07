@@ -503,8 +503,9 @@ hr {
   
   .analytic-box
   {
-     box-shadow: 0 0 20px 8px #263238 !important;
+     background: white;
      padding: 10px;
+     border: 1px solid white;
   }
 
   .analytic-box h3
@@ -514,7 +515,8 @@ hr {
 
   .pi-chart-graph
   {
-     box-shadow: 0 0 20px 8px #263238 !important;
+    background: white;
+    border: 1px solid white;
      padding: 23px;
   }
 
@@ -525,7 +527,8 @@ hr {
 
   .line-chart-graph
   {
-     box-shadow: 0 0 20px 8px #263238!important;
+    background: white;
+    border: 1px solid white;
      padding: 23px;
   }
 
@@ -536,7 +539,8 @@ hr {
 
   .smily-faces-content
   {
-     box-shadow: 0 0 20px 8px #263238!important;
+    background: white;
+    border: 1px solid white;
      padding-top: 10px;
      padding-bottom: 10px;
   }
@@ -562,7 +566,8 @@ hr {
 
   .vertical-bar-chart
   {
-     box-shadow: 0 0 20px 8px #263238 !important;
+    background:white;
+    border: 1px solid white;
      margin-top: 20px;
   }
 
@@ -7859,3 +7864,25 @@ base-chart.chart {
         margin-right: 0; }
     body.mobile-open .main {
       margin-right: 200px !important; } }
+
+
+      .table-responsive {
+        background: white;
+        display: block;
+        width: 100%;
+        min-height: .01%;
+        overflow-x: auto;
+        border: 1px solid white;
+    }
+
+    .content-shadow {
+      background: white;
+      padding: 10px;
+      border: 1px solid white;
+  }
+  .EventDiv{
+    background: white;
+    padding: 10px;
+    height: 379px;
+    border: 1px solid white;
+  }

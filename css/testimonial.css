@@ -39,29 +39,29 @@ h3.slider-rtl-titl2 {
 
 .table-shadow
   {
-     box-shadow: 0 0 20px 8px #263238 !important;
+    
   }
 
   .content-shadow
   {
-     box-shadow: 0 0 20px 8px #263238 !important;
+     
      padding: 10px;
   }
 
   .content-shadow2
   {
-     box-shadow: 0 0 20px 8px #263238 !important;
+     
   }
 
   .table-responsive {
-   box-shadow: 0 0 20px 8px #263238 !important;
+ 
    display: block;
    width: 100%;
    min-height: .01%;
    overflow-x: auto;
 }
 #slideshow{
-   box-shadow: 0 0 20px 8px #263238 !important;
+  
 }
   @media (max-width: 480px) 
   {
