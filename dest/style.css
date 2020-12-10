@@ -7894,7 +7894,7 @@ base-chart.chart {
     }
 
     .content-shadow {
- 
+      height: 381px;
       border-radius: 10px;
       background: white;
       padding: 10px;
